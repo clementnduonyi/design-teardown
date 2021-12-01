@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    padding: 0;
+    margin: 0;
+    /*font: 400 16px/0.5 Helvetica, sans-serif;*/
+    font: 400 16px/0.5 'Francois One', sans-s
+}
+.limited{
+    max-width: 2190px;
+    margin: auto;
+}
+/*----------------Header--------------------------------*/
+header{display: flex; background-color: #d33a2c; height: 120px;}
+header nav{
+   margin: auto;
+   width: 100%;
+   font-size: 1.3em;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav li{
+  color: #fff;
+  list-style-type: none;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+header nav li:hover{
+    background-color: rgba(60,60,60,0.3);
+    border-radius: 8px;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .more{
+    width: 6rem;
+    height: 3rem;
+    background-color: rgba(60,60,60,0.3);
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+header nav .logo{
+    background-color: rgba(60,60,60,0.3);
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: none;
+    border-radius: 8px;
+}
+
+
+.main-nav nav{
+    box-shadow: 0 0 5px 0 #4d4d4d;
+    height: 4rem;
+    width: 100%;
+  
+}
+.main-nav nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+.main-nav nav li{
+    margin-top: .5rem;
+    padding: 1rem;
+    background-color: bisque;
+    border-radius: 8px;
+    letter-spacing: -1px;
+    word-spacing: -.5px;
+    font-size: 1em;
+}
+.main-nav nav a{
+    text-decoration: none;
+    color: #d33a2c;
+}
+
+.main-section .main{
+    display: flex;
+    /*width: 100%;*/
+    margin: 3.3rem;
+
+}
+
+.title{
+    display: flex;
+    width: 100%;
+}
+
+.title .square{
+    height: 8rem;
+    flex: .8;
+    background-color:#d33a2c;
+    border-radius: 8px;
+}
+
+.title .theme{
+    font-family: 'Francois One', sans-s;
+    flex: 3;
+    margin-left: 3rem;
+   
+}
+
+.title .theme h1{
+    line-height: 40px;
+    font-size: 2em;
+}
+
+.main main{
+    flex: 3;
+    margin-right: 2rem;
+    line-height: 16px;
+    width: 100%;
+}
+
+.main aside{
+    background-color: #d33a2c;
+    width: 100%;
+    flex: 2;
+    margin-left: 2rem;
+}
+
+.container .card{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 3.3rem;
+}
+.card .green{
+    background-color: #f1fdf8;;
+    border-radius: 8px;
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.03);
+}
+
+.container .orange{
+    background-color: #fef1f0;;
+    border-radius: 8px;
+    width: 20rem;
+    height: 30rem;
+    margin: 0 3rem;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.03);
+}
+
+.container .purple{
+    background-color: #fbecf9;
+    border-radius: 8px;
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
